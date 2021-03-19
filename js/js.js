@@ -134,7 +134,13 @@ $('.Select-box-2 li').click(function () {
 	} else if (_tihs == 'google_s') {
 		_tihs = 'https://www.google.com/search';
 		_name = 'q';
-	} else if (_tihs == 'bing_s') {
+	} else if (_tihs == 'sogou_s') {
+		_tihs = 'https://www.sogou.com/web';
+		_name = 'query';
+	} else if (_tihs == 'pan_s') {
+		_tihs = 'http://www.slimego.cn/search.html';
+		_name = 'q';
+	}else if (_tihs == 'bing_s') {
 		_tihs = 'https://www.bing.com/search';
 		_name = 'q';
 	} else if (_tihs == 'miji_s') {
